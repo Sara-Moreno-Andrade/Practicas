@@ -13,6 +13,7 @@ Características de los elementos de la clase.
 
 - Pueden ser Porcedimientos (no retornan valor) o Funciones (retornan unn valor).
 
+
 ## 🎈OBJETOS:
 - Un objeto es una instancia de una clase.
 Instanciar: crear un objeto de ese tipo
@@ -20,7 +21,7 @@ Instanciar: crear un objeto de ese tipo
 - Posee un _estado_ (atributos).
 - Posee un _comportamiento_ (métodos).
 ### Instancia: 
-Crear un ejemplar real de una clase
+Crear un ejemplar real de una clase.
 
 ## ✋🏼 CONSTRUCTORES:
 - Permiten la cración de objetos.
@@ -29,4 +30,7 @@ Crear un ejemplar real de una clase
 - No devuelve nigún valor.
 - this = este parámetro.
 
-
+## 😶‍🌫️ GETTERS Y SETTERS:
+- Antes de los métodos o después, pero siempre después del constructor.
+- Métodos especiales que nos permitene extraer los valores de los atributos de una clase.
+- Un get (traer) y un set (colocar) por cada atributo.
