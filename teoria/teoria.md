@@ -53,4 +53,5 @@ Crear un ejemplar real de una clase.
                 this.parametroHijo= parametroHijo;
             }
         }
-
+## 🗂️ POLIMORFISMO:
+- "Muchas formas".

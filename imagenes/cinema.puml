@@ -19,8 +19,16 @@ class Empleado {
   + Double sueldo
 }
 
+class Jefe {
+  + String departamento_jefe
+  + int id_jefe
+}
+
+
+
 Persona <-- Empleado
 Persona <-- Consultor
+Persona <-- Jefe
 
 
 @enduml

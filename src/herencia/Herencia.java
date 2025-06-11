@@ -12,5 +12,19 @@ public class Herencia {
         consul.getNombre_consultora();
         consul.getNombre();
 
+        //String Vector[] = new String[3];
+        //Vector[0] = 1; No se mezclan tipos de datos
+
+        Persona vector [] = new Persona[5];
+        vector[0] = new Persona();
+        vector[1] = new Empleado();
+        vector[2] = new Consultor();
+        vector[3] = new Jefe();
+        
+        Persona perso = new Persona();
+        Consultor consultor = new Consultor ();
+
+        perso = consul;
+
     }
 }

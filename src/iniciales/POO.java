@@ -1,4 +1,4 @@
-
+package iniciales;
 public class POO {
     public static void main(String[] args) {
         Alumno alumno1 = new Alumno();
