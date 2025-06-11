@@ -4,6 +4,16 @@ public class Alumno{
     int id;
     String nombre;
     String apellido;
+
+    public Alumno(){
+
+    }
+    public Alumno(int id, String nombre, String apellido){
+        this.id = id ;
+        this.nombre = nombre ;
+        this.apellido = apellido;
+    }
+    
     //Abstraemos las características de Alumnos (atributos).
 
     public void mostrarNombre (){
@@ -17,4 +27,5 @@ public class Alumno{
             System.out.println("Suspendí la materia.");
         }
     }
+
 }
