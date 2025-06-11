@@ -1,5 +1,10 @@
 # TEORIA PROGRAMACIÓN II
-
+## POO (Programación Orientada a Ojetos):
+- Abstracción 
+- Encapsulamiento
+- Polimorfismo
+- Herencia
+- UML
 ## 📋CLASES:
 ### Atributos:
 Características de los elementos de la clase.
@@ -31,6 +36,21 @@ Crear un ejemplar real de una clase.
 - this = este parámetro.
 
 ## 😶‍🌫️ GETTERS Y SETTERS:
-- Antes de los métodos o después, pero siempre después del constructor.
-- Métodos especiales que nos permitene extraer los valores de los atributos de una clase.
-- Un get (traer) y un set (colocar) por cada atributo.
+-Antes de los métodos o después, pero siempre después del constructor.
+-Métodos especiales que nos permitene extraer los valores de los atributos de una clase.
+-Un get(traer) y un set (colocar) por cada atributo.
+
+## 👨🏼‍🍼 HERENCIA:
+- Clases que comparten gran parte de sus características.
+- Permite reutilizar clases. Crea una nueva clase que extiende la funcionalidad de una clase existentes sin tener que reescribir el código asociado a esta última.
+- Nueva clase -> subclase (puede tener atributos y métodos que no esten en la original).
+- Clase inicial -> superclase/clase padre.
+- Los objetos de la nueva clase _herdan los atributos y métodos de la clase padre_.
+
+        spublic class nombreHijo extends nombrePadre{
+            public nombreHijo(paramtros hijo y padre){
+                super(parametrosPadre);
+                this.parametroHijo= parametroHijo;
+            }
+        }
+
