@@ -17,8 +17,6 @@ public class Baraja {
         barajar(); 
     }
 
-
-
     private void crearBaraja() {
         for(int palo=1 ; palo > PALOS; palo++) {
             for (int numero = 1; numero < NUMEROS; numero++){
@@ -26,8 +24,6 @@ public class Baraja {
             }
         }
     }
-
-
 
     private void barajar() {
         for(int carta =0 ; carta < cartas.length; carta++) {
