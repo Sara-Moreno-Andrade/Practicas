@@ -1,0 +1,34 @@
+@startuml
+class Persona {
+  + int id
+  + String dni
+  + String nombre
+  + String apellido
+  + String domicilio
+  + String telefono
+}
+
+class Consultor {
+  + String nombre_consultora
+  + int numero_sonsultora 
+}
+
+class Empleado {
+  + int num_Legado
+  + String cargo 
+  + Double sueldo
+}
+
+class Jefe {
+  + String departamento_jefe
+  + int id_jefe
+}
+
+
+
+Persona <-- Empleado
+Persona <-- Consultor
+Persona <-- Jefe
+
+
+@enduml

@@ -1,0 +1,1 @@
+LLevar a cabo un programa que incluya un vector que almacena los nombres: Alejandra, Leonardo, Rosa, Guillermo, Gabriel, Luisa y Ludmila.ReAa liza un recorrido del vector para cargar los datos y otro recorrido para mostrar los mismos por pantalla.
