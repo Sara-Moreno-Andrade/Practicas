@@ -1,4 +1,4 @@
-package prg1.practica;
+package prg1.practicaindividual;
 import java.util.Scanner;
 
 public class Maraton {
@@ -49,7 +49,7 @@ public class Maraton {
 
     public static String preguntarNombre(Scanner teclado ){
         System.out.println("Ingrese nombre:");
-        return teclado.next();
+        return teclado.next ();
     }
 
     public static int preguntarEdad(Scanner teclado ){

@@ -1,4 +1,4 @@
-package prg1.practica;
+package prg1.practicaindividual;
 import java.util.Scanner;
 
 public class NumerosLimite {
