@@ -162,5 +162,5 @@ Recorrido :
         int min = 1;
         int max = 10;
         int numeroAleatorio = (int)(Math.random() * (max - min + 1)) + min;
-
+        int numeroAleatoio = Math.random();
         System.out.println(numeroAleatorio); // Número entre 1 y 10
